@@ -30,7 +30,7 @@ oo:
   environment:
     dockerclient_hostname: vmhostname
     dockerclient_ipaddress: vmipaddress
-  jenkins:
+jenkins:
     image: ifxx/jenkins
     volumes:
       - "/src/share:/share"
